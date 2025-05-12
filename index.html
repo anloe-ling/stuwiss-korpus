@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang=de>
+<head>
+  <meta charset=UTF-8 />
+  <meta name=viewport content=width=device-width, initial-scale=1.0 />
+  <meta name=description content=Korpus studentischer wissenschaftlicher Texte im Bereich DaF/DaZ – Informationen zu Erhebung, Annotation, Daten und Kontakt />
+  <title>Das StuWiss-Korpus</title>
+  <link rel=stylesheet href=style.css />
+</head>
+<body>
+  <header>
+    <h1>Das StuWiss-Korpus</h1>
+    <p>Korpus Studentisches Wissenschaftliches Schreiben</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Über das Korpus</h2>
+      <p>Das StuWiss-Korpus wurde im Rahmen des laufenden Dissertationsprojekts <cite>Studentisches wissenschaftliches Schreiben in der Erst- und Fremd-/Zweitsprache Deutsch: Eine vergleichende Korpusanalyse sprachlicher Bestände (Arbeitstitel)</cite> von Andrea Lösel erhoben.</p>
+      <p>Es umfasst 263 Masterarbeiten aus DaF/DaZ-Masterstudiengängen. Diese wurden zwischen 2009 und 2023 an fünf deutschen Hochschulen eingereicht: Freie Universität Berlin, Friedrich-Schiller-Universität Jena, Pädagogische Hochschule Freiburg, Universität Bielefeld und Universität Leipzig. Weiter untergliedert in ein L1-Teilkorpus (135 Masterarbeiten) und ein L2-Teilkorpus (128 Masterarbeiten) bietet das StuWiss-Korpus eine empirische Grundlage für die Erforschung studentischen wissenschaftlichen Schreibens in der Erst- und Fremd- bzw. Zweitsprache Deutsch.</p>
+    </section>
+
+    <section>
+      <h2>Erhebung</h2>
+      <p>
+        Die Masterarbeiten sowie zugehörige Metadaten wurden über die LimeSurvey-Instanz der Universität Leipzig erhoben. Die Metadaten umfassen Informationen zur Masterarbeit und ihrem Entstehungskontext sowie Informationen zum Bildungs- und sprachlichen Hintergrund der studentischen Verfasser:innen.
+      </p>
+    </section>
+
+    <section>
+      <h2>Aufbereitung und Annotation</h2>
+      <p><p>Im Zuge der Aufbereitung erfolgte zunächst die Konvertierung der Ausgangsdateien in das Format <a href="https://tei-c.org/guidelines/p5/" target="_blank" rel="noopener">TEI P5 XML</a>, auf dessen Grundlage die Dateibereinigung erfolgte. Die bereinigten Texte wurden mit spaCy (Version 3.6.1, Modell: <a href="https://github.com/explosion/spacy-models/releases/tag/de_core_news_lg-3.8.0" target="_blank" rel="noopener">de_core_news_lg</a>) annotiert. Die Annotationen umfassen dabei Tokenisierung, Lemmatisierung, PoS-Tagging nach dem STTS sowie syntaktische Dependenzannotation nach dem TIGER-Tagset.</p>
+      <p>Die bereinigten und annotierten Daten liegen aktuell im <a href="https://universaldependencies.org/format.html" target="_blank" rel="noopener">CoNLL-U-Format</a> vor. Zudem wurden zum Einlesen in das Korpustool <a href="https://corpus-tools.org/annis/" target="_blank" rel="noopener">ANNIS</a> die Daten in das relANNIS-Format konvertiert.</p>
+    </section>
+
+    <section>
+      <h2>Korpusdaten auf einen Blick</h2>
+      <p>Die nachfolgende Tabelle bietet einen Überblick über das StuWiss-Korpus und seine beiden Teilkorpora:</p>
+      <table class=dataframe>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Token gesamt</th>
+            <th>Sätze gesamt</th>
+            <th>Dateianzahl</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Gesamtkorpus</th>
+            <td>5.865.974</td>
+            <td>260.027</td>
+            <td>263</td>
+          </tr>
+          <tr>
+            <th>L1-Teilkorpus</th>
+            <td>3.235.532</td>
+            <td>138.838</td>
+            <td>135</td>
+          </tr>
+          <tr>
+            <th>L2-Teilkorpus</th>
+            <td>2.630.442</td>
+            <td>121.189</td>
+            <td>128</td>
+          </tr>
+        </tbody>
+      </table>
+	  
+    </section>
+
+    <section>
+      <h2>Zugang</h2>
+      <p>Das Korpus soll mit seinen Primärdaten sowie Metadaten und Annotationen langfristig durch die Integration in ein geeignetes Korpustool oder Bereitstellung in einem Repositorium auch anderen Forschenden für eine Query and Analysis Only-Abfrage verfügbar gemacht werden. Die Bereitstellung ist aktuell noch in Planung.</p>
+    </section>
+
+    <section>
+      <h2>Kontakt</h2>
+      <p>Andrea Lösel<br>
+      <a href=mailto:andrea.loesel@uni-leipzig.de>andrea.loesel@uni-leipzig.de</a><br>
+      Herder-Institut, Universität Leipzig</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Andrea Lösel</p>
+  </footer>
+</body>
+</html>
