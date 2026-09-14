@@ -1,0 +1,1235 @@
+# pipeline = spaCy v3.7.2 model: de_core_news_lg (Custom Rules)
+
+# sent_id = 1
+# text = Die Pluralbildung ist auch durch den falschen Gebrauch von Apostrophen gekennzeichnet , insbesondere bei Anglizismen .
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	nk	_	_
+2	Pluralbildung	Pluralbildung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	sb	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	auch	auch	ADV	ADV	_	5	mo	_	_
+5	durch	durch	ADP	APPR	_	11	mo	_	_
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	nk	_	_
+7	falschen	falsch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	nk	_	_
+8	Gebrauch	Gebrauch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	nk	_	_
+9	von	von	ADP	APPR	_	8	pg	_	_
+10	Apostrophen	apostrophen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	nk	_	_
+11	gekennzeichnet	kennzeichnen	VERB	VVPP	VerbForm=Part	3	oc	_	_
+12	,	--	PUNCT	$,	_	11	punct	_	_
+13	insbesondere	insbesondere	ADV	ADV	_	14	mo	_	_
+14	bei	bei	ADP	APPR	_	8	app	_	_
+15	Anglizismen	Anglizisme	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	nk	_	_
+16	.	--	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = Es geht darum , wie man das Gesprochene verstehen kann .
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	ep	_	_
+2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	darum	darum	ADV	PROAV	_	2	op	_	_
+4	,	--	PUNCT	$,	_	3	punct	_	_
+5	wie	wie	SCONJ	PWAV	PronType=Int	10	mo	_	_
+6	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	sb	_	_
+7	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	nk	_	_
+8	Gesprochene	gesprochener	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	oa	_	_
+9	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	10	oc	_	_
+10	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	re	_	_
+11	.	--	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = Die wichtigsten Kataloge sind folgende :
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	nk	_	_
+2	wichtigsten	wichtig	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Masc|Number=Plur	3	nk	_	_
+3	Kataloge	Katalog	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	sb	_	_
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	folgende	folgend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	pd	_	_
+6	:	--	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = Laut dem Autor ist es am sinnvollsten zwischen internen Gütekriterien , nämlich Zuverlässigkeit und Glaubwürdigkeit , und externen Gütekriterien wie Übertragbarkeit und Verallgemeinerbarkeit zu unterscheiden .
+1	Laut	laut	ADP	APPR	_	4	mo	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	nk	_	_
+3	Autor	Autor	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	nk	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	sb	_	_
+6	am	am	PART	PTKA	_	7	pm	_	_
+7	sinnvollsten	sinnvoll	ADV	ADJD	Degree=Sup	4	pd	_	_
+8	zwischen	zwischen	ADP	APPR	_	7	mnr	_	_
+9	internen	intern	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	10	nk	_	_
+10	Gütekriterien	Gütekriterie	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	nk	_	_
+11	,	--	PUNCT	$,	_	10	punct	_	_
+12	nämlich	nämlich	ADV	ADV	_	13	mo	_	_
+13	Zuverlässigkeit	Zuverlässigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	app	_	_
+14	und	und	CCONJ	KON	_	13	cd	_	_
+15	Glaubwürdigkeit	Glaubwürdigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	cj	_	_
+16	,	--	PUNCT	$,	_	4	punct	_	_
+17	und	und	CCONJ	KON	_	4	cd	_	_
+18	externen	extern	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	19	nk	_	_
+19	Gütekriterien	Gütekriterie	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	17	cj	_	_
+20	wie	wie	ADP	KOKOM	_	21	cm	_	_
+21	Übertragbarkeit	Übertragbarkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	cc	_	_
+22	und	und	CCONJ	KON	_	21	cd	_	_
+23	Verallgemeinerbarkeit	Verallgemeinerbarkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	cj	_	_
+24	zu	zu	PART	PTKZU	_	25	pm	_	_
+25	unterscheiden	unterscheiden	VERB	VVINF	VerbForm=Inf	4	oc	_	_
+26	.	--	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = Die Art und Weise der Teilnahme wurde auf einen einfachen Aspekt eingeschränkt und zwar an Gesprächen , wenn es um vertraute Dinge geht .
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	nk	_	_
+2	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	sb	_	_
+3	und	und	CCONJ	KON	_	2	cd	_	_
+4	Weise	Weise	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	cj	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	nk	_	_
+6	Teilnahme	Teilnahme	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	ag	_	_
+7	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+8	auf	auf	ADP	APPR	_	12	mo	_	_
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	nk	_	_
+10	einfachen	einfach	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	nk	_	_
+11	Aspekt	Aspekt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nk	_	_
+12	eingeschränkt	einschränken	VERB	VVPP	VerbForm=Part	7	oc	_	_
+13	und	und	CCONJ	KON	_	12	cd	_	_
+14	zwar	zwar	ADV	ADV	_	15	mo	_	_
+15	an	an	ADP	APPR	_	13	cj	_	_
+16	Gesprächen	Gespräch	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	15	nk	_	_
+17	,	--	PUNCT	$,	_	7	punct	_	_
+18	wenn	wenn	SCONJ	KOUS	_	23	cp	_	_
+19	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	ep	_	_
+20	um	um	ADP	APPR	_	23	op	_	_
+21	vertraute	vertraut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	22	nk	_	_
+22	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	nk	_	_
+23	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mo	_	_
+24	.	--	PUNCT	$.	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 6
+# text = Dadurch , dass die Passage länger ist und mehr Möglichkeiten für die gelungene Fragenstellung darstellte , wurden in diesem Fall 9 Fragen zum Inhalt gestellt .
+1	Dadurch	dadurch	ADV	PROAV	_	25	mo	_	_
+2	,	--	PUNCT	$,	_	1	punct	_	_
+3	dass	dass	SCONJ	KOUS	_	7	cp	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	nk	_	_
+5	Passage	Passage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	sb	_	_
+6	länger	lang	ADV	ADJD	Degree=Cmp	7	pd	_	_
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	oc	_	_
+8	und	und	CCONJ	KON	_	7	cd	_	_
+9	mehr	mehr	DET	PIAT	PronType=Ind	10	nk	_	_
+10	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	oa	_	_
+11	für	für	ADP	APPR	_	10	mnr	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	nk	_	_
+13	gelungene	gelungen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	nk	_	_
+14	Fragenstellung	Fragenstellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nk	_	_
+15	darstellte	darstellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cj	_	_
+16	,	--	PUNCT	$,	_	17	punct	_	_
+17	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+18	in	in	ADP	APPR	_	25	mo	_	_
+19	diesem	dieser	DET	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	20	nk	_	_
+20	Fall	Fall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	nk	_	_
+21	9	9	NUM	CARD	_	22	nk	_	_
+22	Fragen	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	sb	_	_
+23	zum	zu	ADP	APPRART	Case=Dat|Gender=Masc|Number=Sing	25	mo	_	_
+24	Inhalt	Inhalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	23	nk	_	_
+25	gestellt	stellen	VERB	VVPP	VerbForm=Part	17	oc	_	_
+26	.	--	PUNCT	$.	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 7
+# text = MPn im Tschechischen können auch keine selbständigen Satzglieder bilden , weshalb sie – ihren deutschen Pendants entsprechend – keine selbständige Antwort auf Entscheidungsfragen sein können .
+1	MPn	MPn	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	sb	_	_
+2	im	in	ADP	APPRART	Case=Dat|Gender=Neut|Number=Sing	1	mnr	_	_
+3	Tschechischen	Tschechischen	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nk	_	_
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	auch	auch	ADV	ADV	_	8	mo	_	_
+6	keine	kein	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	8	nk	_	_
+7	selbständigen	selbständig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	8	nk	_	_
+8	Satzglieder	Satzglieder	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	oa	_	_
+9	bilden	bilden	VERB	VVINF	VerbForm=Inf	4	oc	_	_
+10	,	--	PUNCT	$,	_	9	punct	_	_
+11	weshalb	weshalb	SCONJ	PWAV	PronType=Int	25	mo	_	_
+12	sie	sie	PRON	PPER	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	sb	_	_
+13	–	--	PUNCT	$(	_	25	punct	_	_
+14	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs	16	nk	_	_
+15	deutschen	deutsch	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	16	nk	_	_
+16	Pendants	Pendant	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	17	da	_	_
+17	entsprechend	entsprechend	ADV	ADJD	Degree=Pos	25	mo	_	_
+18	–	--	PUNCT	$(	_	21	punct	_	_
+19	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	21	nk	_	_
+20	selbständige	selbständig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	nk	_	_
+21	Antwort	Antwort	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	pd	_	_
+22	auf	auf	ADP	APPR	_	21	op	_	_
+23	Entscheidungsfragen	Entscheidungsfrage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	nk	_	_
+24	sein	sein	AUX	VAINF	VerbForm=Inf	25	oc	_	_
+25	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	oc	_	_
+26	.	--	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 8
+# text = Als Planungsindikator dient er zur Beibehaltung des Rederechts und als Reformulierungsindikator scheint er , keinen spezifischen wissenschaftlichen Nutzen zu haben .
+1	Als	als	ADP	APPR	_	3	mo	_	_
+2	Planungsindikator	Planungsindikator	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	nk	_	_
+3	dient	dienen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	oc	_	_
+4	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	sb	_	_
+5	zur	zu	ADP	APPRART	Case=Dat|Gender=Fem|Number=Sing	3	op	_	_
+6	Beibehaltung	Beibehaltung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nk	_	_
+7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	nk	_	_
+8	Rederechts	Rederecht	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	6	ag	_	_
+9	und	und	CCONJ	KON	_	5	cd	_	_
+10	als	als	ADP	APPR	_	9	cj	_	_
+11	Reformulierungsindikator	Reformulierungsindikator	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nk	_	_
+12	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	sb	_	_
+14	,	--	PUNCT	$,	_	12	punct	_	_
+15	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	18	nk	_	_
+16	spezifischen	spezifisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	nk	_	_
+17	wissenschaftlichen	wissenschaftlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	nk	_	_
+18	Nutzen	Nutzen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	oa	_	_
+19	zu	zu	PART	PTKZU	_	20	pm	_	_
+20	haben	haben	VERB	VAINF	VerbForm=Inf	12	oc	_	_
+21	.	--	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 9
+# text = Bei der Analyse eines Werbeplakates , in dem ein Bild und ein Text in Verbindung stehen ( f. Bild-Text-Beziehung ) , sollen daher die folgenden drei Botschaften untersucht werden :
+1	Bei	bei	ADP	APPR	_	22	mo	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	nk	_	_
+3	Analyse	Analyse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nk	_	_
+4	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	nk	_	_
+5	Werbeplakates	Werbeplakat	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	ag	_	_
+6	,	--	PUNCT	$,	_	3	punct	_	_
+7	in	in	ADP	APPR	_	16	mo	_	_
+8	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	7	nk	_	_
+9	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	10	nk	_	_
+10	Bild	Bild	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	16	sb	_	_
+11	und	und	CCONJ	KON	_	10	cd	_	_
+12	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	nk	_	_
+13	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	cj	_	_
+14	in	in	ADP	APPR	_	13	mnr	_	_
+15	Verbindung	Verbindung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	nk	_	_
+16	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	rc	_	_
+17	(	--	PUNCT	$(	_	18	punct	_	_
+18	f.	f.	X	XY	_	19	nk	_	_
+19	Bild-Text-Beziehung	Bild-Text-Beziehung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	sb	_	_
+20	)	--	PUNCT	$(	_	19	punct	_	_
+21	,	--	PUNCT	$,	_	22	punct	_	_
+22	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+23	daher	daher	ADV	PROAV	_	29	mo	_	_
+24	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	nk	_	_
+25	folgenden	folgend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	27	nk	_	_
+26	drei	drei	NUM	CARD	_	27	nk	_	_
+27	Botschaften	Botschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	22	sb	_	_
+28	untersucht	untersuchen	VERB	VVPP	VerbForm=Part	29	oc	_	_
+29	werden	werden	AUX	VAINF	VerbForm=Inf	22	oc	_	_
+30	:	--	PUNCT	$.	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 10
+# text = Riten und Sitten aus deutschsprachigen Regionen werden dargestellt und mit entsprechenden Riten und Sitten im eigenen Land verglichen .
+1	Riten	Ritus	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	sb	_	_
+2	und	und	CCONJ	KON	_	1	cd	_	_
+3	Sitten	Sitte	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	cj	_	_
+4	aus	aus	ADP	APPR	_	1	mnr	_	_
+5	deutschsprachigen	deutschsprachig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	6	nk	_	_
+6	Regionen	Region	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nk	_	_
+7	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	dargestellt	darstellen	VERB	VVPP	VerbForm=Part	7	oc	_	_
+9	und	und	CCONJ	KON	_	8	cd	_	_
+10	mit	mit	ADP	APPR	_	18	op	_	_
+11	entsprechenden	entsprechend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	12	nk	_	_
+12	Riten	Rit	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nk	_	_
+13	und	und	CCONJ	KON	_	12	cd	_	_
+14	Sitten	Sitte	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	cj	_	_
+15	im	in	ADP	APPRART	Case=Dat|Gender=Neut|Number=Sing	12	mnr	_	_
+16	eigenen	eigen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	17	nk	_	_
+17	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	nk	_	_
+18	verglichen	vergleichen	VERB	VVPP	VerbForm=Part	9	cj	_	_
+19	.	--	PUNCT	$.	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 11
+# text = In der Literatur wird vorangenommen , dass der Wortschatz beim Hörverstehen im Vergleich zum Leseverstehen eine nicht gleich bedeutsame Rolle spielt .
+1	In	in	ADP	APPR	_	5	mo	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	nk	_	_
+3	Literatur	Literatur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nk	_	_
+4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	vorangenommen	vorangenehmen	VERB	VVPP	VerbForm=Part	4	oc	_	_
+6	,	--	PUNCT	$,	_	4	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	21	cp	_	_
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	nk	_	_
+9	Wortschatz	Wortschatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	sb	_	_
+10	beim	bei	ADP	APPRART	Case=Dat|Gender=Neut|Number=Sing	21	mo	_	_
+11	Hörverstehen	hörverstehen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nk	_	_
+12	im	in	ADP	APPRART	Case=Dat|Gender=Masc|Number=Sing	11	mnr	_	_
+13	Vergleich	Vergleich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nk	_	_
+14	zum	zu	ADP	APPRART	Case=Dat|Gender=Neut|Number=Sing	13	mnr	_	_
+15	Leseverstehen	Leseverstehen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	nk	_	_
+16	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	nk	_	_
+17	nicht	nicht	PART	PTKNEG	_	18	ng	_	_
+18	gleich	gleich	ADV	ADV	_	19	mo	_	_
+19	bedeutsame	bedeutsam	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	nk	_	_
+20	Rolle	Rolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	oa	_	_
+21	spielt	spielen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	sb	_	_
+22	.	--	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 12
+# text = Es sollte auch nicht unerwähnt bleiben , dass die Witze , trotz ihrer verschiedenen Inhalte oder verschieden erscheinenden Figuren , dasselbe Strukturmodell haben können .
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	sb	_	_
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+3	auch	auch	ADV	ADV	_	2	mo	_	_
+4	nicht	nicht	PART	PTKNEG	_	2	ng	_	_
+5	unerwähnt	unerwähnt	ADV	ADJD	Degree=Pos	6	pd	_	_
+6	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	2	oc	_	_
+7	,	--	PUNCT	$,	_	2	punct	_	_
+8	dass	dass	SCONJ	KOUS	_	24	cp	_	_
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	nk	_	_
+10	Witze	Witz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	24	sb	_	_
+11	,	--	PUNCT	$,	_	24	punct	_	_
+12	trotz	trotz	ADP	APPR	_	23	mo	_	_
+13	ihrer	ihr	DET	PPOSAT	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	nk	_	_
+14	verschiedenen	verschieden	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	nk	_	_
+15	Inhalte	Inhalt	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	12	nk	_	_
+16	oder	oder	CCONJ	KON	_	15	cd	_	_
+17	verschieden	verschieden	ADV	ADJD	Degree=Pos	18	mo	_	_
+18	erscheinenden	erscheinend	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	nk	_	_
+19	Figuren	Figur	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	16	cj	_	_
+20	,	--	PUNCT	$,	_	24	punct	_	_
+21	dasselbe	dasselbe	DET	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	22	nk	_	_
+22	Strukturmodell	Strukturmodell	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	oa	_	_
+23	haben	haben	VERB	VAINF	VerbForm=Inf	24	oc	_	_
+24	können	können	AUX	VMINF	VerbForm=Inf	1	re	_	_
+25	.	--	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 13
+# text = Um die Sprachproduktion zu sichern , wird der Grammatikbeschreibung die Äußerung und der gesamte Text zugrunde gelegt .
+1	Um	um	SCONJ	KOUI	_	5	cp	_	_
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	nk	_	_
+3	Sprachproduktion	Sprachproduktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	oa	_	_
+4	zu	zu	PART	PTKZU	_	5	pm	_	_
+5	sichern	sichern	VERB	VVINF	VerbForm=Inf	17	mo	_	_
+6	,	--	PUNCT	$,	_	7	punct	_	_
+7	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	nk	_	_
+9	Grammatikbeschreibung	Grammatikbeschreibung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	da	_	_
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	nk	_	_
+11	Äußerung	Äußerung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	sb	_	_
+12	und	und	CCONJ	KON	_	11	cd	_	_
+13	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	nk	_	_
+14	gesamte	gesamt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	nk	_	_
+15	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	cj	_	_
+16	zugrunde	zugrunde	ADV	ADV	_	17	mo	_	_
+17	gelegt	legen	VERB	VVPP	VerbForm=Part	7	oc	_	_
+18	.	--	PUNCT	$.	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 14
+# text = Die Auslassung von einigen Elementen ist manchmal ohne Informationsverlust möglich .
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	nk	_	_
+2	Auslassung	Auslassung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	sb	_	_
+3	von	von	ADP	APPR	_	2	pg	_	_
+4	einigen	einiger	DET	PIAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	5	nk	_	_
+5	Elementen	Element	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	3	nk	_	_
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	manchmal	manchmal	ADV	ADV	_	6	mo	_	_
+8	ohne	ohne	ADP	APPR	_	6	mo	_	_
+9	Informationsverlust	Informationsverlust	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nk	_	_
+10	möglich	möglich	ADV	ADJD	Degree=Pos	6	pd	_	_
+11	.	--	PUNCT	$.	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 15
+# text = Zudem soll sie Überblick über die Nutzbarkeit der indirekten Fehlerkorrektur im ägyptischen DaF-Kontext geben sowie einen Überblick über die kognitiven Prozesse beim Korrekturverstehen schaffen sowie die Auswirkung der Datenerhebungsmethode VLE auf die Teilnehmenden beim Einarbeiten der korrigierten Texte darlegen .
+1	Zudem	zudem	ADV	PROAV	_	2	mo	_	_
+2	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	sb	_	_
+4	Überblick	Überblick	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	oa	_	_
+5	über	über	ADP	APPR	_	4	mnr	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	nk	_	_
+7	Nutzbarkeit	Nutzbarkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nk	_	_
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	nk	_	_
+9	indirekten	indirekt	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	nk	_	_
+10	Fehlerkorrektur	Fehlerkorrektur	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	ag	_	_
+11	im	in	ADP	APPRART	Case=Dat|Gender=Masc|Number=Sing	10	mnr	_	_
+12	ägyptischen	ägyptisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	13	nk	_	_
+13	DaF-Kontext	DaF-Kontext	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nk	_	_
+14	geben	geben	VERB	VVINF	VerbForm=Inf	2	oc	_	_
+15	sowie	sowie	CCONJ	KON	_	14	cd	_	_
+16	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	nk	_	_
+17	Überblick	Überblick	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	oa	_	_
+18	über	über	ADP	APPR	_	17	mnr	_	_
+19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	nk	_	_
+20	kognitiven	kognitiv	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	21	nk	_	_
+21	Prozesse	Prozeß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	18	nk	_	_
+22	beim	bei	ADP	APPRART	Case=Dat|Gender=Neut|Number=Sing	21	mnr	_	_
+23	Korrekturverstehen	korrekturverstehen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	22	nk	_	_
+24	schaffen	schaffen	VERB	VVINF	VerbForm=Inf	15	cj	_	_
+25	sowie	sowie	CCONJ	KON	_	24	cd	_	_
+26	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	nk	_	_
+27	Auswirkung	Auswirkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	39	oa	_	_
+28	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	nk	_	_
+29	Datenerhebungsmethode	Datenerhebungsmethode	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	27	ag	_	_
+30	VLE	VLE	PROPN	NE	Case=Gen|Number=Sing	29	nk	_	_
+31	auf	auf	ADP	APPR	_	27	mnr	_	_
+32	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	33	nk	_	_
+33	Teilnehmenden	Teilnehmend	NOUN	NN	Case=Acc|Number=Plur	31	nk	_	_
+34	beim	bei	ADP	APPRART	Case=Dat|Gender=Neut|Number=Sing	39	mo	_	_
+35	Einarbeiten	einarbeiten	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	34	nk	_	_
+36	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	nk	_	_
+37	korrigierten	korrigiert	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	38	nk	_	_
+38	Texte	Text	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	35	ag	_	_
+39	darlegen	darlegen	VERB	VVINF	VerbForm=Inf	25	cj	_	_
+40	.	--	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 16
+# text = Außer der Steuergruppe und der Schulleitung nehmen die Mitglieder des Lehrerkollegiums an einem Schulentwicklungsprozess teil .
+1	Außer	außer	ADP	APPR	_	7	mo	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	nk	_	_
+3	Steuergruppe	Steuergruppe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nk	_	_
+4	und	und	CCONJ	KON	_	3	cd	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	nk	_	_
+6	Schulleitung	Schulleitung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	cj	_	_
+7	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	9	nk	_	_
+9	Mitglieder	Mitglied	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	sb	_	_
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	nk	_	_
+11	Lehrerkollegiums	Lehrerkollegium	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	9	ag	_	_
+12	an	an	ADP	APPR	_	7	mo	_	_
+13	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	14	nk	_	_
+14	Schulentwicklungsprozess	Schulentwicklungsprozess	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	nk	_	_
+15	teil	teil	ADV	PTKVZ	_	7	svp	_	_
+16	.	--	PUNCT	$.	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 17
+# text = Aus ihrer Forschung ergibt sich eine starke sowie moderat starke Korrelation zwischen der subjektiven Bewertung in OEPT-Prüfungen und folgenden temporalen Variablen :
+1	Aus	aus	ADP	APPR	_	4	mo	_	_
+2	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	nk	_	_
+3	Forschung	Forschung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nk	_	_
+4	ergibt	ergeben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	sich	sich	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	oa	_	_
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	nk	_	_
+7	starke	stark	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	nk	_	_
+8	sowie	sowie	CCONJ	KON	_	7	cd	_	_
+9	moderat	moderat	ADV	ADJD	Degree=Pos	10	mo	_	_
+10	starke	stark	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	cj	_	_
+11	Korrelation	Korrelation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	sb	_	_
+12	zwischen	zwischen	ADP	APPR	_	11	mnr	_	_
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	nk	_	_
+14	subjektiven	subjektiv	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	15	nk	_	_
+15	Bewertung	Bewertung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nk	_	_
+16	in	in	ADP	APPR	_	15	mnr	_	_
+17	OEPT-Prüfungen	OEPT-Prüfunge	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	nk	_	_
+18	und	und	CCONJ	KON	_	17	cd	_	_
+19	folgenden	folgend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	21	nk	_	_
+20	temporalen	temporal	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	21	nk	_	_
+21	Variablen	Variable	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	18	cj	_	_
+22	:	--	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 18
+# text = Taufen , Heiraten , … )
+1	Taufen	Taufe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	ROOT	_	_
+2	,	--	PUNCT	$,	_	1	punct	_	_
+3	Heiraten	Heirat	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	cj	_	_
+4	,	--	PUNCT	$,	_	1	punct	_	_
+5	…	--	PUNCT	$(	_	1	punct	_	_
+6	)	--	PUNCT	$(	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 19
+# text = Der Einsatz digitaler Medien und unterschiedlicher E-Learning-Formate im Hochschulwesen bewirkten dabei eine eher unerwartete und rasche Digitalisierungswelle , deren sehr kurzfristige Umsetzungszeit neue Herausforderungen für das Bildungswesen , insbesondere für Lehrende und Studierende mit sich brachte , von denen die Situation nun beispielsweise , stärker als zuvor , gute Planungs- und Organisationskompetenz sowie fundierte Kenntnisse im Umgang mit und im Einsatz von digitalen Lehr- und Lernformaten abverlangte .
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	nk	_	_
+2	Einsatz	Einsatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	sb	_	_
+3	digitaler	digital	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	4	nk	_	_
+4	Medien	Medium	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	2	ag	_	_
+5	und	und	CCONJ	KON	_	4	cd	_	_
+6	unterschiedlicher	unterschiedlich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	7	nk	_	_
+7	E-Learning-Formate	E-Learning-Format	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	5	cj	_	_
+8	im	in	ADP	APPRART	Case=Dat|Gender=Neut|Number=Sing	2	mnr	_	_
+9	Hochschulwesen	Hochschulwesen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nk	_	_
+10	bewirkten	bewirken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+11	dabei	dabei	ADV	PROAV	_	10	mo	_	_
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	nk	_	_
+13	eher	eher	ADV	ADV	_	14	mo	_	_
+14	unerwartete	unerwartet	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	nk	_	_
+15	und	und	CCONJ	KON	_	14	cd	_	_
+16	rasche	rasch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	15	cj	_	_
+17	Digitalisierungswelle	Digitalisierungswell	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	oa	_	_
+18	,	--	PUNCT	$,	_	17	punct	_	_
+19	deren	der	DET	PRELAT	Case=Gen|Gender=Fem|Number=Sing|PronType=Rel	22	ag	_	_
+20	sehr	sehr	ADV	ADV	_	21	mo	_	_
+21	kurzfristige	kurzfristig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	nk	_	_
+22	Umsetzungszeit	Umsetzungszeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	36	oa	_	_
+23	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	24	nk	_	_
+24	Herausforderungen	Herausforderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	36	oa	_	_
+25	für	für	ADP	APPR	_	24	mnr	_	_
+26	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	27	nk	_	_
+27	Bildungswesen	Bildungswesen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	25	nk	_	_
+28	,	--	PUNCT	$,	_	24	punct	_	_
+29	insbesondere	insbesondere	ADV	ADV	_	30	mo	_	_
+30	für	für	ADP	APPR	_	24	mnr	_	_
+31	Lehrende	lehrende	NOUN	NN	Case=Acc|Number=Plur	30	nk	_	_
+32	und	und	CCONJ	KON	_	31	cd	_	_
+33	Studierende	studierend	NOUN	NN	Case=Acc|Number=Plur	32	cj	_	_
+34	mit	mit	ADP	APPR	_	36	mo	_	_
+35	sich	sich	PRON	PRF	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	34	nk	_	_
+36	brachte	bringen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	rc	_	_
+37	,	--	PUNCT	$,	_	36	punct	_	_
+38	von	von	ADP	APPR	_	67	mo	_	_
+39	denen	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Plur|PronType=Rel	38	nk	_	_
+40	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	nk	_	_
+41	Situation	Situation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	67	sb	_	_
+42	nun	nun	ADV	ADV	_	67	mo	_	_
+43	beispielsweise	beispielsweise	ADV	ADV	_	42	mo	_	_
+44	,	--	PUNCT	$,	_	67	punct	_	_
+45	stärker	stark	ADV	ADJD	Degree=Cmp	67	mo	_	_
+46	als	als	ADP	KOKOM	_	47	cm	_	_
+47	zuvor	zuvor	ADV	ADV	_	45	cc	_	_
+48	,	--	PUNCT	$,	_	45	punct	_	_
+49	gute	gut	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	52	nk	_	_
+50	Planungs-	Planung	X	TRUNC	_	51	cj	_	_
+51	und	und	CCONJ	KON	_	52	cd	_	_
+52	Organisationskompetenz	Organisationskompetenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	45	cj	_	_
+53	sowie	sowie	CCONJ	KON	_	52	cd	_	_
+54	fundierte	fundiert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	55	nk	_	_
+55	Kenntnisse	Kenntnis	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	53	cj	_	_
+56	im	in	ADP	APPRART	Case=Dat|Gender=Masc|Number=Sing	52	mnr	_	_
+57	Umgang	Umgang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	56	nk	_	_
+58	mit	mit	ADP	PTKVZ	_	45	mo	_	_
+59	und	und	CCONJ	KON	_	58	cd	_	_
+60	im	in	ADP	APPRART	Case=Dat|Gender=Masc|Number=Sing	59	cj	_	_
+61	Einsatz	Einsatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	60	nk	_	_
+62	von	von	ADP	APPR	_	61	pg	_	_
+63	digitalen	digital	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	66	nk	_	_
+64	Lehr-	Lehr	X	TRUNC	_	65	cj	_	_
+65	und	und	CCONJ	KON	_	66	cd	_	_
+66	Lernformaten	Lernformate	NOUN	NN	Case=Dat|Number=Plur	62	nk	_	_
+67	abverlangte	abverlangen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	rc	_	_
+68	.	--	PUNCT	$.	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 20
+# text = Bei der Realisierung von Ü-Lauten hatte die Probandin in der Phase 1 keinen Fehler , aber in der Phase 5 kann man bei einer Realisierung der Ü-Laute nicht mehr erkennen , ob sie einen Ö- oder Ü-Laut realisierte .
+1	Bei	bei	ADP	APPR	_	30	mo	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	nk	_	_
+3	Realisierung	Realisierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nk	_	_
+4	von	von	ADP	APPR	_	3	pg	_	_
+5	Ü-Lauten	Ü-Laut	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nk	_	_
+6	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	nk	_	_
+8	Probandin	Probandin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	sb	_	_
+9	in	in	ADP	APPR	_	6	mo	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	nk	_	_
+11	Phase	Phase	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nk	_	_
+12	1	1	NUM	CARD	_	11	nk	_	_
+13	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	14	nk	_	_
+14	Fehler	Fehler	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	oa	_	_
+15	,	--	PUNCT	$,	_	14	punct	_	_
+16	aber	aber	CCONJ	KON	_	14	cd	_	_
+17	in	in	ADP	APPR	_	16	cj	_	_
+18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	nk	_	_
+19	Phase	Phase	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	nk	_	_
+20	5	5	NUM	CARD	_	19	nk	_	_
+21	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cj	_	_
+22	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	21	sb	_	_
+23	bei	bei	ADP	APPR	_	21	mo	_	_
+24	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	nk	_	_
+25	Realisierung	Realisierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	nk	_	_
+26	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	27	nk	_	_
+27	Ü-Laute	Ü-Laut	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	25	ag	_	_
+28	nicht	nicht	PART	PTKNEG	_	21	ng	_	_
+29	mehr	mehr	ADV	ADV	_	28	mo	_	_
+30	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	21	oc	_	_
+31	,	--	PUNCT	$,	_	30	punct	_	_
+32	ob	ob	SCONJ	KOUS	_	38	cp	_	_
+33	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	38	sb	_	_
+34	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	nk	_	_
+35	Ö-	Ö-	X	XY	_	38	oa	_	_
+36	oder	oder	CCONJ	KON	_	35	cd	_	_
+37	Ü-Laut	Ü-Laut	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	36	cj	_	_
+38	realisierte	realisieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	oc	_	_
+39	.	--	PUNCT	$.	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 21
+# text = Zusatzbelastung für Lehrkraft :
+1	Zusatzbelastung	Zusatzbelastung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	_
+2	für	für	ADP	APPR	_	1	mnr	_	_
+3	Lehrkraft	Lehrkraft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nk	_	_
+4	:	--	PUNCT	$.	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 22
+# text = Die einzige existierende Ausstellung auf dem Gelände in Birkenau wurde 2001 eingeweiht und befindet sich im Gebäude der Zentralsauna .
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	nk	_	_
+2	einzige	einzig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	nk	_	_
+3	existierende	existierend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	nk	_	_
+4	Ausstellung	Ausstellung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	sb	_	_
+5	auf	auf	ADP	APPR	_	4	mnr	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	nk	_	_
+7	Gelände	Gelände	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nk	_	_
+8	in	in	ADP	APPR	_	7	mnr	_	_
+9	Birkenau	Birkenau	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	nk	_	_
+10	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+11	2001	2001	NUM	CARD	_	12	mo	_	_
+12	eingeweiht	einweihen	VERB	VVPP	VerbForm=Part	10	oc	_	_
+13	und	und	CCONJ	KON	_	10	cd	_	_
+14	befindet	befinden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cj	_	_
+15	sich	sich	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	14	oa	_	_
+16	im	in	ADP	APPRART	Case=Dat|Gender=Neut|Number=Sing	14	mo	_	_
+17	Gebäude	Gebäude	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	nk	_	_
+18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	nk	_	_
+19	Zentralsauna	Zentralsauna	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	17	ag	_	_
+20	.	--	PUNCT	$.	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 23
+# text = Ein Beispiel dafür ist eine Untersuchung zu „ Deutschlandbild von Argentiniern “ , die im Auftrag der deutschen Botschaft in Buenos Aires vom Demoskopia-Institut für Marktforschung ausgeführt wurde .
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	2	nk	_	_
+2	Beispiel	Beispiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	pd	_	_
+3	dafür	dafür	ADV	PROAV	_	2	mnr	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	nk	_	_
+6	Untersuchung	Untersuchung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	sb	_	_
+7	zu	zu	ADP	APPR	_	6	mnr	_	_
+8	„	--	PUNCT	$(	_	9	punct	_	_
+9	Deutschlandbild	Deutschlandbild	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nk	_	_
+10	von	von	ADP	APPR	_	9	pg	_	_
+11	Argentiniern	Argentinier	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nk	_	_
+12	“	--	PUNCT	$(	_	9	punct	_	_
+13	,	--	PUNCT	$,	_	9	punct	_	_
+14	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	28	sb	_	_
+15	im	in	ADP	APPRART	Case=Dat|Gender=Masc|Number=Sing	27	mo	_	_
+16	Auftrag	Auftrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	nk	_	_
+17	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	nk	_	_
+18	deutschen	deutsch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	nk	_	_
+19	Botschaft	Botschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	ag	_	_
+20	in	in	ADP	APPR	_	19	mnr	_	_
+21	Buenos	Buenos	PROPN	NE	_	22	pnc	_	_
+22	Aires	Aires	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	20	nk	_	_
+23	vom	von	ADP	APPRART	Case=Dat|Gender=Neut|Number=Sing	27	sbp	_	_
+24	Demoskopia-Institut	Demoskopia-Institut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	nk	_	_
+25	für	für	ADP	APPR	_	24	mnr	_	_
+26	Marktforschung	Marktforschung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	nk	_	_
+27	ausgeführt	ausführen	VERB	VVPP	VerbForm=Part	28	oc	_	_
+28	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	rc	_	_
+29	.	--	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 24
+# text = Außenstehende verhalten sich passiv gegenüber dem Mobbing , sie schauen weg und mischen sich nicht ein ;
+1	Außenstehende	Außenstehender	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	sb	_	_
+2	verhalten	verhalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	sich	sich	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	2	oa	_	_
+4	passiv	passiv	ADV	ADJD	Degree=Pos	2	mo	_	_
+5	gegenüber	gegenüber	ADP	APPR	_	2	mo	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	nk	_	_
+7	Mobbing	Mobbing	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nk	_	_
+8	,	--	PUNCT	$,	_	2	punct	_	_
+9	sie	sie	PRON	PPER	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	sb	_	_
+10	schauen	schauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cj	_	_
+11	weg	weg	ADV	PTKVZ	_	10	mo	_	_
+12	und	und	CCONJ	KON	_	10	cd	_	_
+13	mischen	mischen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cj	_	_
+14	sich	sich	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	13	oa	_	_
+15	nicht	nicht	PART	PTKNEG	_	13	ng	_	_
+16	ein	ein	ADV	PTKVZ	_	13	svp	_	_
+17	;	--	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 25
+# text = Die Art und Weise der Darstellung von Themen in den Lehrwerken bietet zwar eine guten Überblick über einen Diskurs an , aber sie reicht nicht aus .
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	nk	_	_
+2	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	sb	_	_
+3	und	und	CCONJ	KON	_	2	cd	_	_
+4	Weise	Weise	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	cj	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	nk	_	_
+6	Darstellung	Darstellung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	ag	_	_
+7	von	von	ADP	APPR	_	6	pg	_	_
+8	Themen	Thema	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	nk	_	_
+9	in	in	ADP	APPR	_	8	mnr	_	_
+10	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	nk	_	_
+11	Lehrwerken	Lehrwerk	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	nk	_	_
+12	bietet	bieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	zwar	zwar	ADV	ADV	_	12	mo	_	_
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	nk	_	_
+15	guten	gut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	nk	_	_
+16	Überblick	Überblick	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	oa	_	_
+17	über	über	ADP	APPR	_	16	mnr	_	_
+18	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	nk	_	_
+19	Diskurs	Diskurs	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	nk	_	_
+20	an	an	ADP	PTKVZ	_	12	svp	_	_
+21	,	--	PUNCT	$,	_	12	punct	_	_
+22	aber	aber	CCONJ	KON	_	12	cd	_	_
+23	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	sb	_	_
+24	reicht	reichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cj	_	_
+25	nicht	nicht	PART	PTKNEG	_	24	ng	_	_
+26	aus	aus	ADP	PTKVZ	_	24	svp	_	_
+27	.	--	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 26
+# text = Dies fand ich eben praktisch .
+1	Dies	dieser	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	oa	_	_
+2	fand	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	sb	_	_
+4	eben	eben	ADV	ADV	_	2	mo	_	_
+5	praktisch	praktisch	ADV	ADJD	Degree=Pos	2	mo	_	_
+6	.	--	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 27
+# text = Zur Gruppenreflexion gehören auch Erfahrungsaustausch , kritische Selbst- und Gruppenbeobachtung und Feedback , sowohl unter den Teilnehmenden , als auch von der Lehrperson .
+1	Zur	zu	ADP	APPRART	Case=Dat|Gender=Fem|Number=Sing	3	op	_	_
+2	Gruppenreflexion	Gruppenreflexion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nk	_	_
+3	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	auch	auch	ADV	ADV	_	5	mo	_	_
+5	Erfahrungsaustausch	Erfahrungsaustausch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	sb	_	_
+6	,	--	PUNCT	$,	_	5	punct	_	_
+7	kritische	kritisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	nk	_	_
+8	Selbst-	Selbst	X	TRUNC	_	9	cj	_	_
+9	und	und	CCONJ	KON	_	10	cd	_	_
+10	Gruppenbeobachtung	Gruppenbeobachtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	cj	_	_
+11	und	und	CCONJ	KON	_	10	cd	_	_
+12	Feedback	Feedback	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	cj	_	_
+13	,	--	PUNCT	$,	_	3	punct	_	_
+14	sowohl	sowohl	CCONJ	KON	_	15	cd	_	_
+15	unter	unter	ADP	APPR	_	3	mo	_	_
+16	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	nk	_	_
+17	Teilnehmenden	Teilnehmend	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	nk	_	_
+18	,	--	PUNCT	$,	_	15	punct	_	_
+19	als	als	SCONJ	KON	_	15	cd	_	_
+20	auch	auch	ADV	ADV	_	21	mo	_	_
+21	von	von	ADP	APPR	_	19	cj	_	_
+22	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	nk	_	_
+23	Lehrperson	Lehrperson	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	nk	_	_
+24	.	--	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 28
+# text = Im Folgenden werden die Grundlagen der funktionalen Sprachtypologie skizziert , da diese für eine funktional-pragmatische Definition ausschlaggebend sind .
+1	Im	in	ADP	APPRART	Case=Dat|Gender=Neut|Number=Sing	9	mo	_	_
+2	Folgenden	folgend	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	nk	_	_
+3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	nk	_	_
+5	Grundlagen	Grundlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	sb	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	nk	_	_
+7	funktionalen	funktional	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	nk	_	_
+8	Sprachtypologie	Sprachtypologie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	ag	_	_
+9	skizziert	skizzieren	VERB	VVPP	VerbForm=Part	3	oc	_	_
+10	,	--	PUNCT	$,	_	3	punct	_	_
+11	da	da	SCONJ	KOUS	_	18	cp	_	_
+12	diese	dieser	PRON	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	18	sb	_	_
+13	für	für	ADP	APPR	_	17	mo	_	_
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	nk	_	_
+15	funktional-pragmatische	funktional-pragmatisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	nk	_	_
+16	Definition	Definition	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nk	_	_
+17	ausschlaggebend	ausschlaggebend	ADV	ADJD	Degree=Pos	18	pd	_	_
+18	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	mo	_	_
+19	.	--	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 29
+# text = Dies berücksichtigt auch Siebert nach Grein und deutet darauf hin , dass eine gute Klassenstruktur die Motivation erheblich unterstützen kann .
+1	Dies	dieser	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	sb	_	_
+2	berücksichtigt	berücksichtigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	auch	auch	ADV	ADV	_	4	mo	_	_
+4	Siebert	Siebert	PROPN	NE	Case=Nom|Number=Sing	2	sb	_	_
+5	nach	nach	ADP	APPR	_	4	mnr	_	_
+6	Grein	Grein	PROPN	NE	Case=Dat|Number=Sing	5	nk	_	_
+7	und	und	CCONJ	KON	_	2	cd	_	_
+8	deutet	deuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cj	_	_
+9	darauf	darauf	ADV	PROAV	_	8	mo	_	_
+10	hin	hin	ADV	PTKVZ	_	8	svp	_	_
+11	,	--	PUNCT	$,	_	8	punct	_	_
+12	dass	dass	SCONJ	KOUS	_	20	cp	_	_
+13	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	nk	_	_
+14	gute	gut	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	nk	_	_
+15	Klassenstruktur	Klassenstruktur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	sb	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	nk	_	_
+17	Motivation	Motivation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	oa	_	_
+18	erheblich	erheblich	ADV	ADJD	Degree=Pos	19	mo	_	_
+19	unterstützen	unterstützen	VERB	VVINF	VerbForm=Inf	20	oc	_	_
+20	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	re	_	_
+21	.	--	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 30
+# text = Was passiert in diesem Textauszug in der Verwendung von Wörtern aus verschiedenen Sprache , die ähnlich aussehen aber verschiedene Bedeutungen haben ?
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	2	sb	_	_
+2	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	in	in	ADP	APPR	_	2	mo	_	_
+4	diesem	dieser	DET	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	5	nk	_	_
+5	Textauszug	Textauszug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nk	_	_
+6	in	in	ADP	APPR	_	2	mo	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	nk	_	_
+8	Verwendung	Verwendung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nk	_	_
+9	von	von	ADP	APPR	_	8	pg	_	_
+10	Wörtern	Wörter	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	nk	_	_
+11	aus	aus	ADP	APPR	_	8	mnr	_	_
+12	verschiedenen	verschieden	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	nk	_	_
+13	Sprache	Sprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nk	_	_
+14	,	--	PUNCT	$,	_	13	punct	_	_
+15	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	17	sb	_	_
+16	ähnlich	ähnlich	ADV	ADJD	Degree=Pos	17	mo	_	_
+17	aussehen	aussehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cj	_	_
+18	aber	aber	ADV	KON	_	17	cd	_	_
+19	verschiedene	verschieden	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	20	nk	_	_
+20	Bedeutungen	Bedeutung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	21	oa	_	_
+21	haben	haben	VERB	VAINF	VerbForm=Inf	17	cj	_	_
+22	?	--	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 31
+# text = Diese Unterscheidungsparameter stellen noch kein eigenes Modell von hybriden- bzw. BL-Lernumgebungen dar :
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	nk	_	_
+2	Unterscheidungsparameter	Unterscheidungsparameter	NOUN	NN	Case=Nom|Number=Plur	3	sb	_	_
+3	stellen	stellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	noch	noch	ADV	ADV	_	3	mo	_	_
+5	kein	kein	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	7	nk	_	_
+6	eigenes	eigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	nk	_	_
+7	Modell	Modell	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	oa	_	_
+8	von	von	ADP	APPR	_	7	pg	_	_
+9	hybriden-	hybriden-	X	TRUNC	_	10	cj	_	_
+10	bzw.	bzw.	CCONJ	KON	_	11	cd	_	_
+11	BL-Lernumgebungen	BL-Lernumgebung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nk	_	_
+12	dar	dar	ADV	PTKVZ	_	3	svp	_	_
+13	:	--	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 32
+# text = Etwa weniger als die Hälfte der Befragten nahmen an beiden Kursen teil .
+1	Etwa	etwa	ADV	ADV	_	2	mo	_	_
+2	weniger	weniger	PRON	PIS	PronType=Ind	8	sb	_	_
+3	als	als	ADP	KOKOM	_	5	cm	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	nk	_	_
+5	Hälfte	Hälfte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	cc	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	7	nk	_	_
+7	Befragten	befragter	NOUN	NN	Case=Gen|Number=Plur	5	ag	_	_
+8	nahmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+9	an	an	ADP	APPR	_	8	op	_	_
+10	beiden	beide	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	11	nk	_	_
+11	Kursen	Kurs	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nk	_	_
+12	teil	teil	ADV	PTKVZ	_	8	svp	_	_
+13	.	--	PUNCT	$.	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 33
+# text = Durch die Analyse der kognitiven Aktivierung wird untersucht , inwieweit Lehrpersonen in der Lage sind , das vorhandene Wissen und Können der Schüler zu aktivieren und sie dazu zu ermutigen , neue Herausforderungen kreativ anzugehen .
+1	Durch	durch	ADP	APPR	_	8	mo	_	_
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	nk	_	_
+3	Analyse	Analyse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	nk	_	_
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	nk	_	_
+5	kognitiven	kognitiv	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	nk	_	_
+6	Aktivierung	Aktivierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	ag	_	_
+7	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	untersucht	untersuchen	VERB	VVPP	VerbForm=Part	7	oc	_	_
+9	,	--	PUNCT	$,	_	7	punct	_	_
+10	inwieweit	inwieweit	SCONJ	PWAV	PronType=Int	15	mo	_	_
+11	Lehrpersonen	Lehrpersone	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	sb	_	_
+12	in	in	ADP	APPR	_	15	mo	_	_
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	nk	_	_
+14	Lage	Lage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nk	_	_
+15	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	rc	_	_
+16	,	--	PUNCT	$,	_	15	punct	_	_
+17	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	nk	_	_
+18	vorhandene	vorhanden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	nk	_	_
+19	Wissen	Wissen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	25	oa	_	_
+20	und	und	CCONJ	KON	_	19	cd	_	_
+21	Können	können	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	cj	_	_
+22	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	nk	_	_
+23	Schüler	Schüler	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	19	ag	_	_
+24	zu	zu	PART	PTKZU	_	25	pm	_	_
+25	aktivieren	aktivieren	VERB	VVINF	VerbForm=Inf	14	oc	_	_
+26	und	und	CCONJ	KON	_	25	cd	_	_
+27	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	30	oa	_	_
+28	dazu	dazu	ADV	PROAV	_	30	mo	_	_
+29	zu	zu	PART	PTKZU	_	30	pm	_	_
+30	ermutigen	ermutigen	VERB	VVINF	VerbForm=Inf	26	cj	_	_
+31	,	--	PUNCT	$,	_	30	punct	_	_
+32	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	33	nk	_	_
+33	Herausforderungen	Herausforderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	35	oa	_	_
+34	kreativ	kreativ	ADV	ADJD	Degree=Pos	35	mo	_	_
+35	anzugehen	angehen	VERB	VVIZU	VerbForm=Inf	30	oc	_	_
+36	.	--	PUNCT	$.	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 34
+# text = Anschließend wurden die Antworten im Plenum kommentiert .
+1	Anschließend	anschließend	ADV	ADJD	Degree=Pos	7	mo	_	_
+2	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	nk	_	_
+4	Antworten	Antwort	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	sb	_	_
+5	im	in	ADP	APPRART	Case=Dat|Gender=Neut|Number=Sing	4	mnr	_	_
+6	Plenum	Plenum	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nk	_	_
+7	kommentiert	kommentieren	VERB	VVPP	VerbForm=Part	2	oc	_	_
+8	.	--	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 35
+# text = Darüber hinaus ist eine Tendenz zu erkennen , dass ein klarer Zusammenhang zwischen Beruf und der Teilnahme an Weiterbildung besteht .
+1	Darüber	darüber	ADV	PROAV	_	7	mo	_	_
+2	hinaus	hinaus	ADP	APZR	_	1	ac	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	nk	_	_
+5	Tendenz	Tendenz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	sb	_	_
+6	zu	zu	PART	PTKZU	_	7	pm	_	_
+7	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	3	oc	_	_
+8	,	--	PUNCT	$,	_	3	punct	_	_
+9	dass	dass	SCONJ	KOUS	_	20	cp	_	_
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	nk	_	_
+11	klarer	klar	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	nk	_	_
+12	Zusammenhang	Zusammenhang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	sb	_	_
+13	zwischen	zwischen	ADP	APPR	_	12	mnr	_	_
+14	Beruf	Beruf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	nk	_	_
+15	und	und	CCONJ	KON	_	14	cd	_	_
+16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	nk	_	_
+17	Teilnahme	Teilnahme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	cj	_	_
+18	an	an	ADP	APPR	_	17	op	_	_
+19	Weiterbildung	Weiterbildung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	nk	_	_
+20	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	sb	_	_
+21	.	--	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 36
+# text = Die Entfaltung ästhetischer und poetischer bzw. literarischer Kompetenz im Rahmen des Fremdsprachenunterrichts , sowie die Berücksichtigung der Textkompetenz mittels produktiver Verfahren im Umgang mit Literatur zielen darauf , den Lernenden zum Nachdenken anzuregen und subjektive und kulturelle Lernprozesse zu unterstützen , „ in denen durch die Entwicklung eigener Ausdrucks- und Gestaltungsfähigkeit auch die Entwicklung der Sprache “ profitiert .
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	nk	_	_
+2	Entfaltung	Entfaltung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	sb	_	_
+3	ästhetischer	ästhetisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	nk	_	_
+4	und	und	CCONJ	KON	_	3	cd	_	_
+5	poetischer	poetisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	cj	_	_
+6	bzw.	bzw.	CCONJ	KON	_	5	cd	_	_
+7	literarischer	literarisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	cj	_	_
+8	Kompetenz	Kompetenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	ag	_	_
+9	im	in	ADP	APPRART	Case=Dat|Gender=Masc|Number=Sing	8	mnr	_	_
+10	Rahmen	Rahmen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nk	_	_
+11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	nk	_	_
+12	Fremdsprachenunterrichts	Fremdsprachenunterricht	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	10	ag	_	_
+13	,	--	PUNCT	$,	_	2	punct	_	_
+14	sowie	sowie	CCONJ	KON	_	2	cd	_	_
+15	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	nk	_	_
+16	Berücksichtigung	Berücksichtigung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	cj	_	_
+17	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	nk	_	_
+18	Textkompetenz	Textkompetenz	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	ag	_	_
+19	mittels	mittels	ADP	APPR	_	18	mnr	_	_
+20	produktiver	produktiv	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	21	nk	_	_
+21	Verfahren	Verfahren	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	19	nk	_	_
+22	im	in	ADP	APPRART	Case=Dat|Gender=Masc|Number=Sing	18	mnr	_	_
+23	Umgang	Umgang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	nk	_	_
+24	mit	mit	ADP	APPR	_	23	op	_	_
+25	Literatur	Literatur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	nk	_	_
+26	zielen	zielen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+27	darauf	darauf	ADV	PROAV	_	26	op	_	_
+28	,	--	PUNCT	$,	_	27	punct	_	_
+29	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	30	nk	_	_
+30	Lernenden	Lernenden	NOUN	NN	Case=Dat|Number=Plur	33	oa	_	_
+31	zum	zu	ADP	APPRART	Case=Dat|Gender=Neut|Number=Sing	33	mo	_	_
+32	Nachdenken	Nachdenken	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	31	nk	_	_
+33	anzuregen	anregen	VERB	VVIZU	VerbForm=Inf	27	re	_	_
+34	und	und	CCONJ	KON	_	33	cd	_	_
+35	subjektive	subjektiv	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	38	nk	_	_
+36	und	und	CCONJ	KON	_	35	cd	_	_
+37	kulturelle	kulturell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	36	cj	_	_
+38	Lernprozesse	Lernprozesse	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	40	oa	_	_
+39	zu	zu	PART	PTKZU	_	40	pm	_	_
+40	unterstützen	unterstützen	VERB	VVINF	VerbForm=Inf	34	cj	_	_
+41	,	--	PUNCT	$,	_	40	punct	_	_
+42	„	--	PUNCT	$(	_	58	punct	_	_
+43	in	in	ADP	APPR	_	58	mo	_	_
+44	denen	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Plur|PronType=Rel	43	nk	_	_
+45	durch	durch	ADP	APPR	_	58	mo	_	_
+46	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	nk	_	_
+47	Entwicklung	Entwicklung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	45	nk	_	_
+48	eigener	eigen	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	51	nk	_	_
+49	Ausdrucks-	Ausdruck	X	TRUNC	_	50	cj	_	_
+50	und	und	CCONJ	KON	_	51	cd	_	_
+51	Gestaltungsfähigkeit	Gestaltungsfähigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	47	ag	_	_
+52	auch	auch	ADV	ADV	_	54	mo	_	_
+53	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	nk	_	_
+54	Entwicklung	Entwicklung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	45	sb	_	_
+55	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	nk	_	_
+56	Sprache	Sprache	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	54	ag	_	_
+57	“	--	PUNCT	$(	_	54	punct	_	_
+58	profitiert	profitieren	VERB	VVPP	VerbForm=Part	26	mo	_	_
+59	.	--	PUNCT	$.	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 37
+# text = Beim Fremdsprachenerwerbsprozess hat die Grammatik immer noch eine bedeutende Rolle .
+1	Beim	bei	ADP	APPRART	Case=Dat|Gender=Neut|Number=Sing	3	mo	_	_
+2	Fremdsprachenerwerbsprozess	Fremdsprachenerwerbsprozess	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	nk	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	nk	_	_
+5	Grammatik	Grammatik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	sb	_	_
+6	immer	immer	ADV	ADV	_	7	mo	_	_
+7	noch	noch	ADV	ADV	_	3	mo	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	nk	_	_
+9	bedeutende	bedeutend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	nk	_	_
+10	Rolle	Rolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	oa	_	_
+11	.	--	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 38
+# text = Kollaborativer Wissensaufbau ( Englisch : collaborative knowledge building , kurz CKB )
+1	Kollaborativer	Kollaborativer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	pnc	_	_
+2	Wissensaufbau	Wissensaufbau	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	(	--	PUNCT	$(	_	4	punct	_	_
+4	Englisch	Englisch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	par	_	_
+5	:	--	PUNCT	$.	_	4	punct	_	_
+6	collaborative	collaborativ	X	ADJA	Foreign=Yes	8	nk	_	_
+7	knowledge	knowledge	PROPN	NE	_	8	pnc	_	_
+8	building	Building	PROPN	NE	Case=Nom|Number=Sing	2	app	_	_
+9	,	--	PUNCT	$,	_	8	punct	_	_
+10	kurz	kurz	ADV	ADJD	Degree=Pos	11	mo	_	_
+11	CKB	CKB	PROPN	NE	Case=Nom|Number=Sing	8	app	_	_
+12	)	--	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 39
+# text = Mithilfe des Grammatikunterrichts verbessert man seine Sprachproduktion besonders im Bereich des Schreibens , also Wortstellung , Struktur , Wortformen und die angemessene Wahl der sprachlichen Mittel .
+1	Mithilfe	Mithilfe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	mo	_	_
+2	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	nk	_	_
+3	Grammatikunterrichts	Grammatikunterricht	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	1	ag	_	_
+4	verbessert	verbessern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	4	sb	_	_
+6	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	nk	_	_
+7	Sprachproduktion	Sprachproduktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	oa	_	_
+8	besonders	besonders	ADV	ADV	_	9	mo	_	_
+9	im	in	ADP	APPRART	Case=Dat|Gender=Masc|Number=Sing	4	mo	_	_
+10	Bereich	Bereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nk	_	_
+11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	nk	_	_
+12	Schreibens	schreiben	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	10	ag	_	_
+13	,	--	PUNCT	$,	_	10	punct	_	_
+14	also	also	ADV	ADV	_	15	mo	_	_
+15	Wortstellung	Wortstellung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	cj	_	_
+16	,	--	PUNCT	$,	_	15	punct	_	_
+17	Struktur	Struktur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	cj	_	_
+18	,	--	PUNCT	$,	_	15	punct	_	_
+19	Wortformen	Wortforma	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	cj	_	_
+20	und	und	CCONJ	KON	_	19	cd	_	_
+21	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	nk	_	_
+22	angemessene	angemessen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	nk	_	_
+23	Wahl	Wahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	cj	_	_
+24	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	26	nk	_	_
+25	sprachlichen	sprachlich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	26	nk	_	_
+26	Mittel	Mittel	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	23	ag	_	_
+27	.	--	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 40
+# text = Die Befragten können ihre Erfahrungen , Einstellungen und Gefühle ohne Angst vor Vorwürfen darlegen .
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	nk	_	_
+2	Befragten	befragter	NOUN	NN	Case=Nom|Number=Plur	3	sb	_	_
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	nk	_	_
+5	Erfahrungen	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	oa	_	_
+6	,	--	PUNCT	$,	_	5	punct	_	_
+7	Einstellungen	Einstellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	cj	_	_
+8	und	und	CCONJ	KON	_	7	cd	_	_
+9	Gefühle	Gefühl	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	cj	_	_
+10	ohne	ohne	ADP	APPR	_	5	mnr	_	_
+11	Angst	Angst	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nk	_	_
+12	vor	vor	ADP	APPR	_	11	op	_	_
+13	Vorwürfen	Vorwurf	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	nk	_	_
+14	darlegen	darlegen	VERB	VVINF	VerbForm=Inf	3	oc	_	_
+15	.	--	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 41
+# text = Die Versuchspersonen tendieren dazu , mit höherer Artikulationspräzision zu sprechen .
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	nk	_	_
+2	Versuchspersonen	Versuchsperson	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	sb	_	_
+3	tendieren	tendieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	dazu	dazu	ADV	PROAV	_	3	mo	_	_
+5	,	--	PUNCT	$,	_	4	punct	_	_
+6	mit	mit	ADP	APPR	_	10	mo	_	_
+7	höherer	hoch	ADJ	ADJA	Case=Dat|Degree=Cmp|Gender=Fem|Number=Sing	8	nk	_	_
+8	Artikulationspräzision	Artikulationspräzision	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nk	_	_
+9	zu	zu	PART	PTKZU	_	10	pm	_	_
+10	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	4	re	_	_
+11	.	--	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 42
+# text = Realistische Werke , die sich durch ein hohes Maß an ästhetischer Illusionsbildung auszeichnen , sollten eher geeignet als solche , denen diese Realitätsillusion bzw. Scheinbare Lebensechtheit fehlt .
+1	Realistische	Realistische	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	2	nk	_	_
+2	Werke	Werk	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	15	sb	_	_
+3	,	--	PUNCT	$,	_	2	punct	_	_
+4	die	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	13	sb	_	_
+5	sich	sich	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	13	oa	_	_
+6	durch	durch	ADP	APPR	_	13	mo	_	_
+7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	nk	_	_
+8	hohes	hoch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	nk	_	_
+9	Maß	Maß	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	nk	_	_
+10	an	an	ADP	APPR	_	9	mnr	_	_
+11	ästhetischer	ästhetisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	nk	_	_
+12	Illusionsbildung	Illusionsbildung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nk	_	_
+13	auszeichnen	auszeichnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	rc	_	_
+14	,	--	PUNCT	$,	_	15	punct	_	_
+15	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+16	eher	eher	ADV	ADV	_	17	mo	_	_
+17	geeignet	geeignet	ADV	ADJD	Degree=Pos	15	pd	_	_
+18	als	als	ADP	KOKOM	_	19	cm	_	_
+19	solche	solcher	PRON	PIS	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	16	cc	_	_
+20	,	--	PUNCT	$,	_	19	punct	_	_
+21	denen	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Plur|PronType=Rel	27	da	_	_
+22	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	23	nk	_	_
+23	Realitätsillusion	Realitätsillusion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	27	sb	_	_
+24	bzw.	bzw.	CCONJ	KON	_	23	cd	_	_
+25	Scheinbare	scheinbar	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	nk	_	_
+26	Lebensechtheit	Lebensechtheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	cj	_	_
+27	fehlt	fehlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	rc	_	_
+28	.	--	PUNCT	$.	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 43
+# text = Außerdem erhalten sie die Bachelorarbeiten der Studierenden aus den Vorjahren als Beispiele , aus denen sie ihr eigenes Thema finden und ein Inhaltsverzeichnis als erste Struktur ihrer Arbeit erstellen müssen .
+1	Außerdem	außerdem	ADV	PROAV	_	2	mo	_	_
+2	erhalten	erhalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	sb	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	nk	_	_
+5	Bachelorarbeiten	Bachelorarbeiten	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	oa	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	7	nk	_	_
+7	Studierenden	studierend	NOUN	NN	Case=Gen|Number=Plur	5	ag	_	_
+8	aus	aus	ADP	APPR	_	5	mnr	_	_
+9	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	10	nk	_	_
+10	Vorjahren	Vorjahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	nk	_	_
+11	als	als	ADP	APPR	_	2	mo	_	_
+12	Beispiele	Beispiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nk	_	_
+13	,	--	PUNCT	$,	_	12	punct	_	_
+14	aus	aus	ADP	APPR	_	20	mo	_	_
+15	denen	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Plur|PronType=Rel	14	nk	_	_
+16	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	sb	_	_
+17	ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	19	nk	_	_
+18	eigenes	eigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	nk	_	_
+19	Thema	Thema	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	oa	_	_
+20	finden	finden	VERB	VVINF	VerbForm=Inf	12	rc	_	_
+21	und	und	CCONJ	KON	_	20	cd	_	_
+22	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	23	nk	_	_
+23	Inhaltsverzeichnis	Inhaltsverzeichnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	29	oa	_	_
+24	als	als	ADP	APPR	_	29	mo	_	_
+25	erste	erster	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	nk	_	_
+26	Struktur	Struktur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	nk	_	_
+27	ihrer	ihr	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	nk	_	_
+28	Arbeit	Arbeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	26	ag	_	_
+29	erstellen	erstellen	VERB	VVINF	VerbForm=Inf	30	oc	_	_
+30	müssen	müssen	AUX	VMINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cj	_	_
+31	.	--	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 44
+# text = Das nächste Kapitel enthält von mir entworfene Unterrichtsvorschläge , die aus praktischen Übungen auf der Grundlage von ausgewählten deutschen Liedern bestehen .
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	nk	_	_
+2	nächste	nächster	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	nk	_	_
+3	Kapitel	Kapitel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	sb	_	_
+4	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	von	von	ADP	APPR	_	7	sbp	_	_
+6	mir	mir	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	nk	_	_
+7	entworfene	entworfen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	nk	_	_
+8	Unterrichtsvorschläge	Unterrichtsvorschlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	oa	_	_
+9	,	--	PUNCT	$,	_	8	punct	_	_
+10	die	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	21	sb	_	_
+11	aus	aus	ADP	APPR	_	21	mo	_	_
+12	praktischen	praktisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	13	nk	_	_
+13	Übungen	Übung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	nk	_	_
+14	auf	auf	ADP	APPR	_	21	op	_	_
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	nk	_	_
+16	Grundlage	Grundlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	nk	_	_
+17	von	von	ADP	APPR	_	16	pg	_	_
+18	ausgewählten	ausgewählt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	20	nk	_	_
+19	deutschen	deutsch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	20	nk	_	_
+20	Liedern	Lied	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	17	nk	_	_
+21	bestehen	bestehen	VERB	VVINF	VerbForm=Inf	8	rc	_	_
+22	.	--	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 45
+# text = Sind die Themen der Werke von Bedeutung ?
+1	Sind	Sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	nk	_	_
+3	Themen	Thema	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	1	sb	_	_
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	nk	_	_
+5	Werke	Werk	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	3	ag	_	_
+6	von	von	ADP	APPR	_	3	pg	_	_
+7	Bedeutung	Bedeutung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nk	_	_
+8	?	--	PUNCT	$.	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 46
+# text = Es geht hier um diese Elemente :
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	ep	_	_
+2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	hier	hier	ADV	ADV	_	2	mo	_	_
+4	um	um	ADP	APPR	_	2	op	_	_
+5	diese	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	6	nk	_	_
+6	Elemente	Element	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	nk	_	_
+7	:	--	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 47
+# text = Lachpartikeln , Häsitationsmarker oder Rezeptionssignale , unverständliche Wörter , wiederholte bzw. selbstkorrigierte Wörter sowie englische oder spanische Wörter sind dabei nicht inbegriffen .
+1	Lachpartikeln	Lachpartikel	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	19	sb	_	_
+2	,	--	PUNCT	$,	_	1	punct	_	_
+3	Häsitationsmarker	Häsitationsmarker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	cj	_	_
+4	oder	oder	CCONJ	KON	_	3	cd	_	_
+5	Rezeptionssignale	Rezeptionssignal	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	cj	_	_
+6	,	--	PUNCT	$,	_	1	punct	_	_
+7	unverständliche	unverständlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	8	nk	_	_
+8	Wörter	Wort	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	cj	_	_
+9	,	--	PUNCT	$,	_	1	punct	_	_
+10	wiederholte	wiederholt	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cj	_	_
+11	bzw.	bzw.	CCONJ	KON	_	10	cd	_	_
+12	selbstkorrigierte	selbstkorrigiert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	13	nk	_	_
+13	Wörter	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	cj	_	_
+14	sowie	sowie	CCONJ	KON	_	13	cd	_	_
+15	englische	englisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	18	nk	_	_
+16	oder	oder	CCONJ	KON	_	15	cd	_	_
+17	spanische	spanisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	16	cj	_	_
+18	Wörter	Wort	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	14	cj	_	_
+19	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+20	dabei	dabei	ADV	PROAV	_	19	mo	_	_
+21	nicht	nicht	PART	PTKNEG	_	19	ng	_	_
+22	inbegriffen	inbegriffen	ADV	ADJD	Degree=Pos	19	pd	_	_
+23	.	--	PUNCT	$.	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 48
+# text = Klassische Sänger/-innen müssen auf eine Vielzahl von schon vorgeschriebenen musikalischen Elementen sowie Ausdrucksmitteln achten , z. B. Rhythmus , Melodie , Intonation und Klanghomogenität bzw. Legato .
+1	Klassische	klassisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	nk	_	_
+2	Sänger/-innen	sänger/-innen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	sb	_	_
+3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	auf	auf	ADP	APPR	_	14	op	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	nk	_	_
+6	Vielzahl	Vielzahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nk	_	_
+7	von	von	ADP	APPR	_	6	mnr	_	_
+8	schon	schon	ADV	ADV	_	9	mo	_	_
+9	vorgeschriebenen	vorgeschrieben	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	11	nk	_	_
+10	musikalischen	musikalisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	11	nk	_	_
+11	Elementen	Element	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	nk	_	_
+12	sowie	sowie	CCONJ	KON	_	11	cd	_	_
+13	Ausdrucksmitteln	Ausdrucksmittel	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	cj	_	_
+14	achten	achten	VERB	VVINF	VerbForm=Inf	3	oc	_	_
+15	,	--	PUNCT	$,	_	14	punct	_	_
+16	z.	z.	ADP	APPRART	Case=Dat|Gender=Neut|Number=Sing	18	mo	_	_
+17	B.	B.	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	nk	_	_
+18	Rhythmus	Rhythmus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	app	_	_
+19	,	--	PUNCT	$,	_	18	punct	_	_
+20	Melodie	Melodie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	cj	_	_
+21	,	--	PUNCT	$,	_	18	punct	_	_
+22	Intonation	Intonation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	cj	_	_
+23	und	und	CCONJ	KON	_	22	cd	_	_
+24	Klanghomogenität	Klanghomogenität	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	cj	_	_
+25	bzw.	bzw.	CCONJ	KON	_	24	cd	_	_
+26	Legato	Legato	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	25	cj	_	_
+27	.	--	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 49
+# text = Wörterbuch benutzen ) .
+1	Wörterbuch	Wörterbuch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	oa	_	_
+2	benutzen	benutzen	VERB	VVINF	VerbForm=Inf	0	ROOT	_	_
+3	)	--	PUNCT	$(	_	2	punct	_	_
+4	.	--	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 50
+# text = Das Konzept hat Baacke selbst zuerst als „ empirisch leer “ kritisiert , später entwickelte er in Zusammenarbeit mit weiteren Fachwissenschaftlern , das Konzept in das Bielefelder Medienkompetenzmodell , dass auch in empirischen Studien , zum Beispiel bei der Erforschung vom Medienhandeln Jugendlicher eingesetzt wurde .
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	nk	_	_
+2	Konzept	Konzept	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	sb	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	Baacke	Baacke	PROPN	NE	Case=Nom|Number=Sing	3	sb	_	_
+5	selbst	selbst	ADV	ADV	_	4	mnr	_	_
+6	zuerst	zuerst	ADV	ADV	_	12	mo	_	_
+7	als	als	ADP	APPR	_	12	mo	_	_
+8	„	--	PUNCT	$(	_	10	punct	_	_
+9	empirisch	empirisch	ADV	ADJD	Degree=Pos	10	mo	_	_
+10	leer	leer	ADV	ADJD	Degree=Pos	7	nk	_	_
+11	“	--	PUNCT	$(	_	10	punct	_	_
+12	kritisiert	kritisieren	VERB	VVPP	VerbForm=Part	3	oc	_	_
+13	,	--	PUNCT	$,	_	12	punct	_	_
+14	später	spät	ADV	ADJD	Degree=Cmp	15	mo	_	_
+15	entwickelte	entwickeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cj	_	_
+16	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	sb	_	_
+17	in	in	ADP	APPR	_	15	mo	_	_
+18	Zusammenarbeit	Zusammenarbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	nk	_	_
+19	mit	mit	ADP	APPR	_	18	mnr	_	_
+20	weiteren	weit	ADJ	ADJA	Case=Dat|Degree=Cmp|Gender=Neut|Number=Plur	21	nk	_	_
+21	Fachwissenschaftlern	Fachwissenschaftler	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	19	nk	_	_
+22	,	--	PUNCT	$,	_	15	punct	_	_
+23	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	nk	_	_
+24	Konzept	Konzept	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	oa	_	_
+25	in	in	ADP	APPR	_	24	mnr	_	_
+26	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	28	nk	_	_
+27	Bielefelder	Bielefelder	ADJ	ADJA	Degree=Pos	28	nk	_	_
+28	Medienkompetenzmodell	Medienkompetenzmodell	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	25	nk	_	_
+29	,	--	PUNCT	$,	_	24	punct	_	_
+30	dass	daß	SCONJ	KOUS	_	45	cp	_	_
+31	auch	auch	ADV	ADV	_	32	mo	_	_
+32	in	in	ADP	APPR	_	44	mo	_	_
+33	empirischen	empirisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	34	nk	_	_
+34	Studien	Studie	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	32	nk	_	_
+35	,	--	PUNCT	$,	_	34	punct	_	_
+36	zum	zu	ADP	APPRART	Case=Dat|Gender=Neut|Number=Sing	38	mo	_	_
+37	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	36	nk	_	_
+38	bei	bei	ADP	APPR	_	34	mnr	_	_
+39	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	nk	_	_
+40	Erforschung	Erforschung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	38	nk	_	_
+41	vom	von	ADP	APPRART	Case=Dat|Gender=Masc|Number=Sing	40	pg	_	_
+42	Medienhandeln	Medienhandel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	41	nk	_	_
+43	Jugendlicher	jugendliche	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	45	sb	_	_
+44	eingesetzt	einsetzen	VERB	VVPP	VerbForm=Part	45	oc	_	_
+45	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	rc	_	_
+46	.	--	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+
